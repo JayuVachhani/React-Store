@@ -49,7 +49,10 @@ margin: 10px 20px;
     font-weight: 700;
 }
 .navbar__optionBasket{
+ color: white;
+ text-decoration: none;
+ margin-top: 20px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-right: 20px;
 }

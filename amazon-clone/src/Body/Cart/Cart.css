@@ -1,0 +1,30 @@
+.checkout{
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+h2{
+    text-align: center;
+}
+.checkout__ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout__items{
+    display: flex;    
+    margin: 10px 10px;
+}
+.checkout__left{
+    width: 60%;
+}
+.checkout__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    /* /* padding: 20px; */
+    margin: 30px;
+    /* border: 1px solid gray; */
+}
