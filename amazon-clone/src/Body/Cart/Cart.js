@@ -1,5 +1,6 @@
 import React from 'react'
 import './Cart.css'
+import CheckoutProduct from './Checkout Products/CheckoutProduct'
 import SubTotal from './SubTotal/SubTotal'
 
 const Cart = () => {
@@ -13,11 +14,11 @@ const Cart = () => {
         
         <div className='checkout_items'>
           <h3>Your Cart Items</h3>
+          <CheckoutProduct/>
         </div>
       </div>
       <div className='checkout__right'>
-        <div className='payment'>
-          
+        <div className='payment'>          
           <SubTotal/>
         </div>
       </div>

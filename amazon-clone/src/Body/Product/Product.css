@@ -19,7 +19,7 @@
   margin-bottom: 15px;
 }
 .product > button {
-    background: #f0c14b;
+    background: orange;
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
@@ -28,13 +28,14 @@
     border-radius: 15px;
     cursor: pointer;
     width: 20vh;
+    font-size: 15px;
   }
   .product__price {
     margin-top: 5px;
   }
   .product__rating{
       display: flex;
-      color: rgb(218, 218, 7);
+      color: rgb(255, 208, 0);
   }
   
   .product__info {

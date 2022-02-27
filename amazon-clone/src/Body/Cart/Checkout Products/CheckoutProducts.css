@@ -1,0 +1,42 @@
+.checkoutProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    border: 1px solid lightgray;
+    margin: 20px;
+    
+}
+.productImage{
+    padding: 20px;
+    
+}
+.checkoutProduct .checkoutProductLeft .productImage img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+.checkoutProductRight{
+    
+    padding: 20px;
+}
+.productTitle{
+    font-weight: 600;
+}
+.productPrice{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+    color:green;
+}
+.productRating{
+    margin-top: 5px;
+    color: rgb(255, 208, 0);
+}
+.removeItem{
+    float:right;
+    margin-top: 20px;
+    background-color: rgb(255, 208, 0);
+    width: 30%;
+    font-size: 12px;
+}
