@@ -25,7 +25,7 @@ const SubTotal = () => {
             <input type='checkbox'/>
             Item in your cart contains Gift Card. Please add if you want! 
         </div>
-        <button>Proceed to Payment</button>
+        <button className='paymentButton'>Proceed to Payment</button>
     </div>
     
   )

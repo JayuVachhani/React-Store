@@ -20,11 +20,15 @@ const Navbar = () => {
             <SearchIcon className="navbar__searchIcon"/>
 
         </div>
+        
         <div className='navbar__nav'>
-            <div className='navbar__option'>
+        <Link to='/login'>
+        <div className='navbar__option'>
                 <span className='navbar_optionone'>Hello Guest</span>
                 <span className='navbar_optiontwo'>SignIn</span>
             </div>
+        </Link>
+            
             <div className='navbar__option'>
             <span className='navbar_optionone'>Returns</span>
                 <span className='navbar_optiontwo'>& Orders</span>
