@@ -1,6 +1,7 @@
 // let cart;
 export const initialState = {
   cart: [],
+  user:null
 }
 
 const reducer = (state, action) => {
@@ -28,6 +29,17 @@ const reducer = (state, action) => {
         //   item.id !== action.id
         // )
       }
+      case "SET_USER":
+        return{
+          ...state,
+          user:action.user
+          
+        }
+      case "EMPTY_CART":
+        return{
+          ...state,
+          cart:[]
+        }
     default:
       return state
   }

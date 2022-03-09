@@ -1,0 +1,19 @@
+.card{   
+    border: 1px solid gray;       
+    border-radius: 15px;
+    padding: 20px
+}
+.card_header, .card_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card_body{
+    display: flex;
+    flex-direction: column;
+}
+.card_ProgressBar{
+   height: 15px;
+   background-color: rgb(219, 219, 202);
+   border-radius: 20px;
+}

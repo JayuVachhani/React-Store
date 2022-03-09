@@ -4,7 +4,7 @@ import GradeIcon from '@material-ui/icons/Grade'
 import './CheckoutProducts.css'
 
 const CheckoutProduct = () => {
-  const [{ cart }, dispatch] = useStateValue()
+  const [{ cart,user }, dispatch] = useStateValue()
   const removeItemFromCart = (id) => {
       console.log("delete id",id)
     dispatch({

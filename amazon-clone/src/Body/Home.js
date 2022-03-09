@@ -1,8 +1,12 @@
 import React from 'react'
+
 import './Body.css'
 import Product from './Product/Product'
+// import { Products } from '../All_Products'
 
 const Home = () => {
+  
+  
   return (
     <div className="home">
       <div className="home__container">
@@ -14,6 +18,14 @@ const Home = () => {
         />
 
         <div className="home__row">
+          {/* {Products.length>0?
+          Products.map((product)=>{
+            return(
+                <div key={product.id}>
+                  <Product id={product.id} title={product.title} price={product.price} rating={product.rating} image={product.image}/>
+                </div>
+            )
+          }):<p>No Products available</p>} */}
           <Product
             id="12321341"
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
@@ -34,21 +46,21 @@ const Home = () => {
           <Product
             id="4903850"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={55}
+            price={55.25}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
           />
           <Product
             id="23445930"
             title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={70}
+            price={70.333}
             rating={5}
             image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           />
           <Product
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={29}
+            price={29.7}
             rating={1}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
@@ -63,6 +75,7 @@ const Home = () => {
           />
         </div>
       </div>
+      
     </div>
   )
 }

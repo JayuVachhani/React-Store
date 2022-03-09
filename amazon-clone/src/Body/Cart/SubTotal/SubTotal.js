@@ -1,8 +1,12 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
+
 import { useStateValue } from '../../../StateProvider/StateProvider'
+
 import './SubTotal.css'
 
 const SubTotal = () => {
+  const navigate = useNavigate()
   const [{cart},dispatch] = useStateValue();
   
   const getCartTotalAmount = (cart)=>{
@@ -25,7 +29,10 @@ const SubTotal = () => {
             <input type='checkbox'/>
             Item in your cart contains Gift Card. Please add if you want! 
         </div>
-        <button className='paymentButton'>Proceed to Payment</button>
+        
+        <button onClick={()=>navigate('/payment',{replace:true})} className='paymentButton'>Proceed to Payment</button>
+        
+        
     </div>
     
   )

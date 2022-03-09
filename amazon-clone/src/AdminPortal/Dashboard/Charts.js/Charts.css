@@ -1,0 +1,23 @@
+.charts{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 10px;
+    width: 98%;
+    
+}
+.chart_Left{
+    width: 100%;
+    display: grid;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(219, 219, 219);
+    margin-right: 20px;
+}
+.chart_Right{
+    
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(192, 168, 168);
+}

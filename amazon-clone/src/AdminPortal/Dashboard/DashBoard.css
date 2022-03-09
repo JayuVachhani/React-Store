@@ -1,0 +1,25 @@
+.dashboard{
+    width: 100%;
+    display: grid;
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    padding : 20px
+    
+}
+.charts{
+    height: 60vh;
+    
+}
+.dashBoardLeft{
+    width: 20%;
+}
+.dashBoardRight{
+    width: 75%;
+}
+.dashboardContent{
+    width: 100%;
+}

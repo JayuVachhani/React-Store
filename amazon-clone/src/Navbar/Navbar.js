@@ -7,7 +7,7 @@ import { useStateValue } from '../StateProvider/StateProvider';
 
 
 const Navbar = () => {
-    const [{cart},dispatch] = useStateValue();
+    const [{cart,user},dispatch] = useStateValue();
   return (
     <>
     <div className='navbar'>
@@ -24,8 +24,8 @@ const Navbar = () => {
         <div className='navbar__nav'>
         <Link to='/login'>
         <div className='navbar__option'>
-                <span className='navbar_optionone'>Hello Guest</span>
-                <span className='navbar_optiontwo'>SignIn</span>
+                <span className='navbar_optionone'>Hello {user ? user?.email.split("@")[0] : "Guest"}</span>
+                <span className='navbar_optiontwo'>{user?"Sign Out":"Sign In"}</span>
             </div>
         </Link>
             

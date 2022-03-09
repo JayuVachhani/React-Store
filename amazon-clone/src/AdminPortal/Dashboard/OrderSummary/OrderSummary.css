@@ -1,0 +1,16 @@
+.orderSummary{
+    display: flex;
+    flex-direction: column;    
+    width: 90%;
+    margin: 20px auto;    
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 15px;  
+    
+}
+fieldset{
+    height: 50vh;
+}
+legend{
+    font-size: 25px;
+}
